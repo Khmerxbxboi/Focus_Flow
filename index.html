@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Focus Flow — a UX/UI case study for a mobile time-management app designed in Fall 2024." />
+  <title>Focus Flow — UX/UI Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/focus-flow-logo.png" />
+  <link rel="apple-touch-icon" href="assets/focus-flow-logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Focus Flow home">
+        <img class="brand-logo" src="assets/focus-flow-logo.png" alt="" aria-hidden="true" />
+        <span>Focus Flow</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#process">Process</a>
+        <a href="#visual-design">Visual Design</a>
+        <a class="nav-back" href="https://www.jayaproduction.com" target="_blank" rel="noopener">Back to Jaya ↗</a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+      <a href="#overview">Overview</a>
+      <a href="#process">Process</a>
+      <a href="#visual-design">Visual Design</a>
+      <a href="https://www.jayaproduction.com" target="_blank" rel="noopener">Back to Jaya ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="hero-brand"><img src="assets/focus-flow-logo.png" alt="Focus Flow hourglass logo" /><p class="eyebrow">UX/UI Case Study · Fall 2024</p></div>
+          <h1>Designing a calmer way to manage time.</h1>
+          <p class="hero-lede">Focus Flow is a mobile productivity app created to help people organize tasks, reduce distractions, and build more intentional daily routines.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://www.figma.com/proto/0ZcoBbxMAKSh2ICQAMwiA1/team-bounce-time-management?node-id=50-106&node-type=canvas&t=4yMrihrhD3vqDhGy-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=50%3A106" target="_blank" rel="noopener">Open Figma Prototype <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#overview">View Case Study</a>
+          </div>
+          <div class="meta-grid" aria-label="Project details">
+            <div><span>Role</span><strong>UX + UI Design</strong></div>
+            <div><span>Team</span><strong>Team Bounce</strong></div>
+            <div><span>Tools</span><strong>Figma · Miro · Photoshop</strong></div>
+          </div>
+        </div>
+        <figure class="hero-visual reveal">
+          <img src="assets/focus-flow-hero.png" alt="Focus Flow mobile app interface and presentation overview" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="overview" class="section section-light">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Project Overview</p>
+          <h2>Built through research, teamwork, and iteration.</h2>
+        </div>
+        <div class="body-copy reveal">
+          <p>Focus Flow was developed by an interdisciplinary group of graduate Interaction Design students and BFA Graphic Design students. We combined user research, collaborative ideation, interface design, and usability feedback to create a focused mobile experience.</p>
+          <p>Our goal was not only to design another task app. We wanted to create a supportive tool that could fit naturally into work, school, and everyday life without adding more visual noise.</p>
+          <div class="team-card">
+            <span>Team members</span>
+            <p>Esther · Carly · Noah · Yan · Bulli</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">My Contribution</p>
+          <h2>From user insight to interactive prototype.</h2>
+        </div>
+        <div class="contribution-grid">
+          <article class="contribution-card reveal"><span>01</span><h3>User Research</h3><p>Supported interviews, persona development, and research synthesis to identify real productivity challenges.</p></article>
+          <article class="contribution-card reveal"><span>02</span><h3>Interaction Design</h3><p>Helped shape navigation, task flows, screen relationships, and the overall mobile experience.</p></article>
+          <article class="contribution-card reveal"><span>03</span><h3>UI Design</h3><p>Contributed to visual hierarchy, consistency, icon direction, color decisions, and responsive screen layouts.</p></article>
+          <article class="contribution-card reveal"><span>04</span><h3>Presentation</h3><p>Collaborated on storytelling, critiques, final presentation materials, and communicating the design rationale.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section-light">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">User Journey</p>
+          <h2>Mapping the experience before designing the screens.</h2>
+          <p class="section-intro">We used Miro to create a shared user flow that connected login, the home page, task lists, reminders, calendar views, and focus mode. This let the team work asynchronously while keeping the product direction aligned.</p>
+        </div>
+        <figure class="image-frame reveal zoomable" tabindex="0" role="button" aria-label="Enlarge user flow image">
+          <img src="assets/user-flow.png" alt="Focus Flow user flow mapped with connected sticky notes" loading="lazy" />
+        </figure>
+        <div class="process-steps">
+          <article class="process-step reveal"><span>01</span><h3>Empathize</h3><p>Interview users and understand their scheduling habits, distractions, and daily frustrations.</p></article>
+          <article class="process-step reveal"><span>02</span><h3>Define</h3><p>Identify the need for clear task organization, reminders, and a dedicated focus experience.</p></article>
+          <article class="process-step reveal"><span>03</span><h3>Ideate</h3><p>Explore concepts in Miro and compare possible flows before committing to interface screens.</p></article>
+          <article class="process-step reveal"><span>04</span><h3>Prototype</h3><p>Build the mobile experience in Figma and connect the most important user journeys.</p></article>
+          <article class="process-step reveal"><span>05</span><h3>Test</h3><p>Use critique and feedback to improve clarity, hierarchy, navigation, and consistency.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="visual-design" class="section section-peach">
+      <div class="container visual-grid">
+        <div class="visual-copy reveal">
+          <p class="eyebrow">Visual Design</p>
+          <h2>A peaceful system built around focus and balance.</h2>
+          <p>Purple became the main brand color because it communicates creativity, confidence, calm, and balance. Warm earth tones softened the experience and helped the interface feel more human.</p>
+          <p>The hourglass logo represents the passage of time, mindfulness, and the balance between productivity and rest. Simple line icons and clear typography reduced cognitive load across the app.</p>
+          <div class="design-tokens">
+            <div><span>Primary</span><strong>#7D3C98</strong></div>
+            <div><span>Accent</span><strong>#D6604D</strong></div>
+            <div><span>Display</span><strong>Gravitas One</strong></div>
+            <div><span>Body</span><strong>Noto Sans</strong></div>
+          </div>
+        </div>
+        <figure class="image-frame visual-image reveal zoomable" tabindex="0" role="button" aria-label="Enlarge style guide image">
+          <img src="assets/style-guide.png" alt="Focus Flow style guide with color palette, typography, logo, and mobile interface" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section prototype-section">
+      <div class="container prototype-card reveal">
+        <div>
+          <p class="eyebrow">Interactive Prototype</p>
+          <h2>Experience Focus Flow in Figma.</h2>
+          <p>Walk through the login, home screen, task management, reminders, and focus-mode experience directly in the interactive prototype.</p>
+        </div>
+        <a class="button button-primary button-large" href="https://www.figma.com/proto/0ZcoBbxMAKSh2ICQAMwiA1/team-bounce-time-management?node-id=50-106&node-type=canvas&t=4yMrihrhD3vqDhGy-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=50%3A106" target="_blank" rel="noopener">Launch Prototype ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded image">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <img src="" alt="" />
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>Focus Flow</strong><p>UX/UI Case Study · Fall 2024</p></div>
+      <a href="https://www.jayaproduction.com" target="_blank" rel="noopener">Return to jayaproduction.com ↗</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
